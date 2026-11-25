@@ -20,7 +20,7 @@ app:
     api-key: ${ANTHROPIC_API_KEY:}
     base-url: ${ANTHROPIC_BASE_URL:https://api.anthropic.com/v1}
     model: ${ANTHROPIC_MODEL:claude-haiku-5-5}
-    timeout-seconds: 25
+    timeout-seconds: 10
     max-calls-per-session: 40
   limits:
     max-input-chars: 500

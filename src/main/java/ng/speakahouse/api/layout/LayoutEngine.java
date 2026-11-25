@@ -42,6 +42,7 @@ public class LayoutEngine {
             "parlour", new double[]{3.6, 14.0}
     );
 
+    @com.fasterxml.jackson.annotation.JsonInclude(com.fasterxml.jackson.annotation.JsonInclude.Include.NON_NULL)
     public record Violation(
             String rule,
             String room,
