@@ -16,17 +16,17 @@ public class InterpretService {
 
     private final AppProperties props;
     private final RuleBasedInterpreter ruleInterpreter;
-    private final DeepSeekInterpreter deepSeekInterpreter;
+    private final AnthropicInterpreter anthropicInterpreter;
     private final DesignSessionRepository sessionRepo;
 
     public InterpretService(
             AppProperties props,
             RuleBasedInterpreter ruleInterpreter,
-            DeepSeekInterpreter deepSeekInterpreter,
+            AnthropicInterpreter anthropicInterpreter,
             DesignSessionRepository sessionRepo) {
         this.props = props;
         this.ruleInterpreter = ruleInterpreter;
-        this.deepSeekInterpreter = deepSeekInterpreter;
+        this.anthropicInterpreter = anthropicInterpreter;
         this.sessionRepo = sessionRepo;
     }
 
@@ -43,12 +43,11 @@ public class InterpretService {
             session.setAiCalls(session.getAiCalls() + 1);
             sessionRepo.save(session);
             try {
-                return deepSeekInterpreter.interpret(text, baseVersionId, baseSpec);
+                return anthropicInterpreter.interpret(text, baseVersionId, baseSpec);
             } catch (Exception ex) {
-                log.warn("DeepSeek AI failed ({}), falling back to RuleBasedInterpreter", ex.getMessage());
+                log.warn("Anthropic AI failed ({}), falling back to RuleBasedInterpreter", ex.getMessage());
             }
         }
         return ruleInterpreter.interpret(text, baseVersionId, baseSpec);
     }
 }
-
