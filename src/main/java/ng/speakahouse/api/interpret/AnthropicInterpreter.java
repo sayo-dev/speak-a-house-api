@@ -142,11 +142,17 @@ public class AnthropicInterpreter {
         if (response == null || !response.has("content") || response.get("content").isEmpty()) {
             throw new IllegalStateException("Empty content from Anthropic");
         }
-        JsonNode textNode = response.get("content").get(0).path("text");
-        if (textNode.isMissingNode() || textNode.asText().isBlank()) {
+        String text = null;
+        for (JsonNode block : response.get("content")) {
+            if ("text".equals(block.path("type").asText()) && block.has("text")) {
+                text = block.get("text").asText();
+                break;
+            }
+        }
+        if (text == null || text.isBlank()) {
             throw new IllegalStateException("Empty text block from Anthropic");
         }
-        return stripFences(textNode.asText());
+        return stripFences(text);
     }
 
     private static String stripFences(String raw) {
