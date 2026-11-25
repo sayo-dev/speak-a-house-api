@@ -15,7 +15,7 @@ server:
 management.endpoints.web.exposure.include: health,info
 app:
   contract-version: "1.0.0"
-  cors.allowed-origins: http://localhost:5173,http://localhost:4173
+  cors.allowed-origins: ${APP_CORS_ALLOWED_ORIGINS:http://localhost:5173,http://localhost:4173,http://102.209.47.234}
   ai:
     api-key: ${ANTHROPIC_API_KEY:}
     base-url: ${ANTHROPIC_BASE_URL:https://api.anthropic.com/v1}
