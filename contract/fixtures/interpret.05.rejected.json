@@ -1,0 +1,6 @@
+{
+  "kind": "rejected",
+  "source": "rules",
+  "code": "INJECTION",
+  "reason": "Prices and building rules can't be changed from the chat. I can change the house design."
+}

@@ -1,0 +1,93 @@
+{
+  "type": "https://speakahouse.ng/problems/layout-infeasible",
+  "title": "This house doesn't fit the plot",
+  "status": 422,
+  "code": "LAYOUT_INFEASIBLE",
+  "detail": "The requested rooms don't fit inside the setbacks of a 40 × 60 ft plot.",
+  "instance": "/api/v1/sessions/ses_demo0001/versions",
+  "violations": [
+    {
+      "rule": "inside_buildable_area",
+      "room": "Bedroom 3",
+      "message": "Bedroom 3 falls outside the area allowed by setbacks"
+    },
+    {
+      "rule": "inside_buildable_area",
+      "room": "Bedroom 5",
+      "message": "Bedroom 5 falls outside the area allowed by setbacks"
+    },
+    {
+      "rule": "inside_buildable_area",
+      "room": "Bathroom",
+      "message": "Bathroom falls outside the area allowed by setbacks"
+    },
+    {
+      "rule": "inside_buildable_area",
+      "room": "Store",
+      "message": "Store falls outside the area allowed by setbacks"
+    },
+    {
+      "rule": "inside_buildable_area",
+      "room": "Bedroom 2",
+      "message": "Bedroom 2 falls outside the area allowed by setbacks"
+    },
+    {
+      "rule": "inside_buildable_area",
+      "room": "Bedroom 4",
+      "message": "Bedroom 4 falls outside the area allowed by setbacks"
+    },
+    {
+      "rule": "inside_buildable_area",
+      "room": "Bedroom 6",
+      "message": "Bedroom 6 falls outside the area allowed by setbacks"
+    },
+    {
+      "rule": "inside_buildable_area",
+      "room": "Corridor",
+      "message": "Corridor falls outside the area allowed by setbacks"
+    },
+    {
+      "rule": "no_overlap",
+      "room": "Master bedroom / Boys' quarters",
+      "message": "Rooms overlap"
+    },
+    {
+      "rule": "no_overlap",
+      "room": "Master bedroom / BQ toilet",
+      "message": "Rooms overlap"
+    },
+    {
+      "rule": "no_overlap",
+      "room": "Bedroom 3 / Boys' quarters",
+      "message": "Rooms overlap"
+    },
+    {
+      "rule": "no_overlap",
+      "room": "Bedroom 3 / BQ toilet",
+      "message": "Rooms overlap"
+    },
+    {
+      "rule": "no_overlap",
+      "room": "Kitchen / BQ toilet",
+      "message": "Rooms overlap"
+    },
+    {
+      "rule": "no_overlap",
+      "room": "Bedroom 2 / BQ toilet",
+      "message": "Rooms overlap"
+    },
+    {
+      "rule": "no_overlap",
+      "room": "Corridor / BQ toilet",
+      "message": "Rooms overlap"
+    },
+    {
+      "rule": "annex_gap",
+      "room": "Boys' quarters",
+      "required": 1.5,
+      "actual": -14.412,
+      "message": "Not enough space behind the house for a boys' quarters",
+      "suggestion": "Remove a bedroom or choose a deeper plot"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "patch",
+  "source": "rules",
+  "baseVersionId": "ver_0002",
+  "patch": [
+    {
+      "op": "set",
+      "path": "/finish",
+      "value": "premium"
+    }
+  ],
+  "spec": {
+    "plot": {
+      "width": 50,
+      "depth": 100,
+      "unit": "ft",
+      "unitConfirmed": true
+    },
+    "houseType": "bungalow",
+    "rooms": {
+      "bedrooms": 3,
+      "ensuites": 0,
+      "dining": false
+    },
+    "features": {
+      "shop": true,
+      "bq": true,
+      "garage": false,
+      "fence": true
+    },
+    "roofing": "hip",
+    "finish": "premium",
+    "budget": {
+      "amount": 50000000,
+      "currency": "NGN"
+    },
+    "region": "abeokuta"
+  },
+  "summary": [
+    "Finish: standard → premium"
+  ]
+}

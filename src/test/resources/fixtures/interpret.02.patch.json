@@ -1,0 +1,42 @@
+{
+  "kind": "patch",
+  "source": "rules",
+  "baseVersionId": "ver_0001",
+  "patch": [
+    {
+      "op": "set",
+      "path": "/features/bq",
+      "value": true
+    }
+  ],
+  "spec": {
+    "plot": {
+      "width": 50,
+      "depth": 100,
+      "unit": "ft",
+      "unitConfirmed": true
+    },
+    "houseType": "bungalow",
+    "rooms": {
+      "bedrooms": 3,
+      "ensuites": 0,
+      "dining": false
+    },
+    "features": {
+      "shop": true,
+      "bq": true,
+      "garage": false,
+      "fence": true
+    },
+    "roofing": "hip",
+    "finish": "standard",
+    "budget": {
+      "amount": 50000000,
+      "currency": "NGN"
+    },
+    "region": "abeokuta"
+  },
+  "summary": [
+    "Add boys' quarters"
+  ]
+}

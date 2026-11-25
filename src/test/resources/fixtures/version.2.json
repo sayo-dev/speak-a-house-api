@@ -1,0 +1,829 @@
+{
+  "id": "ver_0002",
+  "sessionId": "ses_demo0001",
+  "seq": 2,
+  "parentId": "ver_0001",
+  "inputText": "Add a boys' quarters at the back",
+  "createdAt": "2026-11-25T10:02:00Z",
+  "spec": {
+    "plot": {
+      "width": 50,
+      "depth": 100,
+      "unit": "ft",
+      "unitConfirmed": true
+    },
+    "houseType": "bungalow",
+    "rooms": {
+      "bedrooms": 3,
+      "ensuites": 0,
+      "dining": false
+    },
+    "features": {
+      "shop": true,
+      "bq": true,
+      "garage": false,
+      "fence": true
+    },
+    "roofing": "hip",
+    "finish": "standard",
+    "budget": {
+      "amount": 50000000,
+      "currency": "NGN"
+    },
+    "region": "abeokuta"
+  },
+  "plan": {
+    "units": "m",
+    "wallHeight": 3.0,
+    "plot": {
+      "width": 15.24,
+      "depth": 30.48
+    },
+    "setbacks": {
+      "front": 6.0,
+      "rear": 3.0,
+      "side": 1.5
+    },
+    "buildable": {
+      "x": 1.5,
+      "y": 6.0,
+      "width": 12.24,
+      "depth": 21.48
+    },
+    "footprint": {
+      "x": 1.62,
+      "y": 6.0,
+      "width": 12.0,
+      "depth": 14.1
+    },
+    "rooms": [
+      {
+        "id": "r1",
+        "type": "shop",
+        "label": "Shop",
+        "x": 1.62,
+        "y": 6.0,
+        "width": 3.6,
+        "depth": 4.5,
+        "area": 16.2,
+        "zone": "main"
+      },
+      {
+        "id": "r2",
+        "type": "parlour",
+        "label": "Parlour",
+        "x": 5.22,
+        "y": 6.0,
+        "width": 8.4,
+        "depth": 4.5,
+        "area": 37.8,
+        "zone": "main"
+      },
+      {
+        "id": "r3",
+        "type": "master_bedroom",
+        "label": "Master bedroom",
+        "x": 1.62,
+        "y": 10.5,
+        "width": 5.4,
+        "depth": 4.2,
+        "area": 22.68,
+        "zone": "main"
+      },
+      {
+        "id": "r4",
+        "type": "bedroom",
+        "label": "Bedroom 3",
+        "x": 1.62,
+        "y": 14.7,
+        "width": 5.4,
+        "depth": 3.6,
+        "area": 19.44,
+        "zone": "main"
+      },
+      {
+        "id": "r5",
+        "type": "store",
+        "label": "Store",
+        "x": 1.62,
+        "y": 18.3,
+        "width": 5.4,
+        "depth": 1.8,
+        "area": 9.72,
+        "zone": "main"
+      },
+      {
+        "id": "r6",
+        "type": "kitchen",
+        "label": "Kitchen",
+        "x": 8.22,
+        "y": 10.5,
+        "width": 5.4,
+        "depth": 3.6,
+        "area": 19.44,
+        "zone": "main"
+      },
+      {
+        "id": "r7",
+        "type": "bedroom",
+        "label": "Bedroom 2",
+        "x": 8.22,
+        "y": 14.1,
+        "width": 5.4,
+        "depth": 3.6,
+        "area": 19.44,
+        "zone": "main"
+      },
+      {
+        "id": "r8",
+        "type": "bathroom",
+        "label": "Bathroom",
+        "x": 8.22,
+        "y": 17.7,
+        "width": 5.4,
+        "depth": 2.4,
+        "area": 12.96,
+        "zone": "main"
+      },
+      {
+        "id": "r9",
+        "type": "corridor",
+        "label": "Corridor",
+        "x": 7.02,
+        "y": 10.5,
+        "width": 1.2,
+        "depth": 9.6,
+        "area": 11.52,
+        "zone": "main"
+      },
+      {
+        "id": "r10",
+        "type": "bq",
+        "label": "Boys' quarters",
+        "x": 1.5,
+        "y": 23.88,
+        "width": 3.6,
+        "depth": 3.6,
+        "area": 12.96,
+        "zone": "annex"
+      },
+      {
+        "id": "r11",
+        "type": "bathroom",
+        "label": "BQ toilet",
+        "x": 5.1,
+        "y": 23.88,
+        "width": 2.4,
+        "depth": 3.6,
+        "area": 8.64,
+        "zone": "annex"
+      }
+    ],
+    "walls": [
+      {
+        "id": "w1",
+        "x1": 1.62,
+        "y1": 6.0,
+        "x2": 13.62,
+        "y2": 6.0,
+        "thickness": 0.225,
+        "exterior": true
+      },
+      {
+        "id": "w2",
+        "x1": 1.62,
+        "y1": 10.5,
+        "x2": 13.62,
+        "y2": 10.5,
+        "thickness": 0.15,
+        "exterior": false
+      },
+      {
+        "id": "w3",
+        "x1": 8.22,
+        "y1": 14.1,
+        "x2": 13.62,
+        "y2": 14.1,
+        "thickness": 0.15,
+        "exterior": false
+      },
+      {
+        "id": "w4",
+        "x1": 1.62,
+        "y1": 14.7,
+        "x2": 7.02,
+        "y2": 14.7,
+        "thickness": 0.15,
+        "exterior": false
+      },
+      {
+        "id": "w5",
+        "x1": 8.22,
+        "y1": 17.7,
+        "x2": 13.62,
+        "y2": 17.7,
+        "thickness": 0.15,
+        "exterior": false
+      },
+      {
+        "id": "w6",
+        "x1": 1.62,
+        "y1": 18.3,
+        "x2": 7.02,
+        "y2": 18.3,
+        "thickness": 0.15,
+        "exterior": false
+      },
+      {
+        "id": "w7",
+        "x1": 1.62,
+        "y1": 20.1,
+        "x2": 13.62,
+        "y2": 20.1,
+        "thickness": 0.225,
+        "exterior": true
+      },
+      {
+        "id": "w8",
+        "x1": 1.5,
+        "y1": 23.88,
+        "x2": 7.5,
+        "y2": 23.88,
+        "thickness": 0.225,
+        "exterior": true
+      },
+      {
+        "id": "w9",
+        "x1": 1.5,
+        "y1": 27.48,
+        "x2": 7.5,
+        "y2": 27.48,
+        "thickness": 0.225,
+        "exterior": true
+      },
+      {
+        "id": "w10",
+        "x1": 1.5,
+        "y1": 23.88,
+        "x2": 1.5,
+        "y2": 27.48,
+        "thickness": 0.225,
+        "exterior": true
+      },
+      {
+        "id": "w11",
+        "x1": 1.62,
+        "y1": 6.0,
+        "x2": 1.62,
+        "y2": 20.1,
+        "thickness": 0.225,
+        "exterior": true
+      },
+      {
+        "id": "w12",
+        "x1": 5.1,
+        "y1": 23.88,
+        "x2": 5.1,
+        "y2": 27.48,
+        "thickness": 0.15,
+        "exterior": false
+      },
+      {
+        "id": "w13",
+        "x1": 5.22,
+        "y1": 6.0,
+        "x2": 5.22,
+        "y2": 10.5,
+        "thickness": 0.15,
+        "exterior": false
+      },
+      {
+        "id": "w14",
+        "x1": 7.02,
+        "y1": 10.5,
+        "x2": 7.02,
+        "y2": 20.1,
+        "thickness": 0.15,
+        "exterior": false
+      },
+      {
+        "id": "w15",
+        "x1": 7.5,
+        "y1": 23.88,
+        "x2": 7.5,
+        "y2": 27.48,
+        "thickness": 0.225,
+        "exterior": true
+      },
+      {
+        "id": "w16",
+        "x1": 8.22,
+        "y1": 10.5,
+        "x2": 8.22,
+        "y2": 20.1,
+        "thickness": 0.15,
+        "exterior": false
+      },
+      {
+        "id": "w17",
+        "x1": 13.62,
+        "y1": 6.0,
+        "x2": 13.62,
+        "y2": 20.1,
+        "thickness": 0.225,
+        "exterior": true
+      }
+    ],
+    "openings": [
+      {
+        "id": "o1",
+        "type": "door",
+        "wallId": "w1",
+        "offset": 0.9,
+        "width": 0.9,
+        "height": 2.1,
+        "sill": 0.0
+      },
+      {
+        "id": "o2",
+        "type": "window",
+        "wallId": "w1",
+        "offset": 2.5,
+        "width": 1.2,
+        "height": 1.2,
+        "sill": 0.9
+      },
+      {
+        "id": "o3",
+        "type": "door",
+        "wallId": "w1",
+        "offset": 7.8,
+        "width": 0.9,
+        "height": 2.1,
+        "sill": 0.0
+      },
+      {
+        "id": "o4",
+        "type": "window",
+        "wallId": "w1",
+        "offset": 5.6,
+        "width": 1.2,
+        "height": 1.2,
+        "sill": 0.9
+      },
+      {
+        "id": "o5",
+        "type": "door",
+        "wallId": "w2",
+        "offset": 6.0,
+        "width": 0.9,
+        "height": 2.1,
+        "sill": 0.0
+      },
+      {
+        "id": "o6",
+        "type": "door",
+        "wallId": "w14",
+        "offset": 2.1,
+        "width": 0.9,
+        "height": 2.1,
+        "sill": 0.0
+      },
+      {
+        "id": "o7",
+        "type": "window",
+        "wallId": "w11",
+        "offset": 6.6,
+        "width": 1.2,
+        "height": 1.2,
+        "sill": 0.9
+      },
+      {
+        "id": "o8",
+        "type": "door",
+        "wallId": "w14",
+        "offset": 6.0,
+        "width": 0.9,
+        "height": 2.1,
+        "sill": 0.0
+      },
+      {
+        "id": "o9",
+        "type": "window",
+        "wallId": "w11",
+        "offset": 10.5,
+        "width": 1.2,
+        "height": 1.2,
+        "sill": 0.9
+      },
+      {
+        "id": "o10",
+        "type": "door",
+        "wallId": "w14",
+        "offset": 8.7,
+        "width": 0.9,
+        "height": 2.1,
+        "sill": 0.0
+      },
+      {
+        "id": "o11",
+        "type": "door",
+        "wallId": "w16",
+        "offset": 1.8,
+        "width": 0.9,
+        "height": 2.1,
+        "sill": 0.0
+      },
+      {
+        "id": "o12",
+        "type": "window",
+        "wallId": "w17",
+        "offset": 6.3,
+        "width": 1.2,
+        "height": 1.2,
+        "sill": 0.9
+      },
+      {
+        "id": "o13",
+        "type": "door",
+        "wallId": "w16",
+        "offset": 5.4,
+        "width": 0.9,
+        "height": 2.1,
+        "sill": 0.0
+      },
+      {
+        "id": "o14",
+        "type": "window",
+        "wallId": "w17",
+        "offset": 9.9,
+        "width": 1.2,
+        "height": 1.2,
+        "sill": 0.9
+      },
+      {
+        "id": "o15",
+        "type": "door",
+        "wallId": "w16",
+        "offset": 8.4,
+        "width": 0.9,
+        "height": 2.1,
+        "sill": 0.0
+      },
+      {
+        "id": "o16",
+        "type": "window",
+        "wallId": "w17",
+        "offset": 12.9,
+        "width": 1.2,
+        "height": 1.2,
+        "sill": 0.9
+      },
+      {
+        "id": "o17",
+        "type": "door",
+        "wallId": "w7",
+        "offset": 6.0,
+        "width": 0.9,
+        "height": 2.1,
+        "sill": 0.0
+      },
+      {
+        "id": "o18",
+        "type": "door",
+        "wallId": "w8",
+        "offset": 1.8,
+        "width": 0.9,
+        "height": 2.1,
+        "sill": 0.0
+      },
+      {
+        "id": "o19",
+        "type": "window",
+        "wallId": "w10",
+        "offset": 1.8,
+        "width": 1.2,
+        "height": 1.2,
+        "sill": 0.9
+      },
+      {
+        "id": "o20",
+        "type": "door",
+        "wallId": "w8",
+        "offset": 4.8,
+        "width": 0.9,
+        "height": 2.1,
+        "sill": 0.0
+      }
+    ],
+    "fence": {
+      "x": 0,
+      "y": 0,
+      "width": 15.24,
+      "depth": 30.48,
+      "gateOffset": 7.62,
+      "gateWidth": 3.6
+    },
+    "roofing": "hip",
+    "frontEdge": "y0"
+  },
+  "estimate": {
+    "currency": "NGN",
+    "region": "abeokuta",
+    "finish": "standard",
+    "priceDataVerified": false,
+    "priceAsOf": "2026-11-01",
+    "lines": [
+      {
+        "key": "concrete_m3",
+        "group": "substructure",
+        "description": "Concrete 1:2:4 (cement, sand, granite)",
+        "quantity": 48.713,
+        "unit": "m3",
+        "rate": 180000,
+        "amount": 8768340,
+        "priceSource": "Sample baseline (team estimate), not supplier-verified",
+        "observedOn": "2026-11-01",
+        "verified": false
+      },
+      {
+        "key": "block_9in",
+        "group": "blockwork",
+        "description": "9-inch hollow sandcrete block",
+        "quantity": 2330,
+        "unit": "each",
+        "rate": 850,
+        "amount": 1980500,
+        "priceSource": "Sample baseline (team estimate), not supplier-verified",
+        "observedOn": "2026-11-01",
+        "verified": false
+      },
+      {
+        "key": "block_6in",
+        "group": "blockwork",
+        "description": "6-inch hollow sandcrete block",
+        "quantity": 1695,
+        "unit": "each",
+        "rate": 700,
+        "amount": 1186500,
+        "priceSource": "Sample baseline (team estimate), not supplier-verified",
+        "observedOn": "2026-11-01",
+        "verified": false
+      },
+      {
+        "key": "cement_bag",
+        "group": "blockwork",
+        "description": "Cement 50 kg (mortar and plaster)",
+        "quantity": 207,
+        "unit": "bag",
+        "rate": 10500,
+        "amount": 2173500,
+        "priceSource": "Sample baseline (team estimate), not supplier-verified",
+        "observedOn": "2026-11-01",
+        "verified": false
+      },
+      {
+        "key": "roof_timber_m2",
+        "group": "roofing",
+        "description": "Roof timber and carpentry",
+        "quantity": 232.776,
+        "unit": "m2",
+        "rate": 8000,
+        "amount": 1862208,
+        "priceSource": "Sample baseline (team estimate), not supplier-verified",
+        "observedOn": "2026-11-01",
+        "verified": false
+      },
+      {
+        "key": "roof_cover_m2",
+        "group": "roofing",
+        "description": "Roof covering, aluminium long-span",
+        "quantity": 232.776,
+        "unit": "m2",
+        "rate": 12000,
+        "amount": 2793312,
+        "priceSource": "Sample baseline (team estimate), not supplier-verified",
+        "observedOn": "2026-11-01",
+        "verified": false
+      },
+      {
+        "key": "door_each",
+        "group": "openings",
+        "description": "Door with frame",
+        "quantity": 12,
+        "unit": "each",
+        "rate": 85000,
+        "amount": 1020000,
+        "priceSource": "Sample baseline (team estimate), not supplier-verified",
+        "observedOn": "2026-11-01",
+        "verified": false
+      },
+      {
+        "key": "window_each",
+        "group": "openings",
+        "description": "Window 1.2 x 1.2 m",
+        "quantity": 8,
+        "unit": "each",
+        "rate": 90000,
+        "amount": 720000,
+        "priceSource": "Sample baseline (team estimate), not supplier-verified",
+        "observedOn": "2026-11-01",
+        "verified": false
+      },
+      {
+        "key": "floor_finish_m2",
+        "group": "finishes",
+        "description": "Floor tiles",
+        "quantity": 190.8,
+        "unit": "m2",
+        "rate": 12000,
+        "amount": 2289600,
+        "priceSource": "Sample baseline (team estimate), not supplier-verified",
+        "observedOn": "2026-11-01",
+        "verified": false
+      },
+      {
+        "key": "ceiling_m2",
+        "group": "finishes",
+        "description": "Ceiling",
+        "quantity": 190.8,
+        "unit": "m2",
+        "rate": 7000,
+        "amount": 1335600,
+        "priceSource": "Sample baseline (team estimate), not supplier-verified",
+        "observedOn": "2026-11-01",
+        "verified": false
+      },
+      {
+        "key": "paint_m2",
+        "group": "finishes",
+        "description": "Painting",
+        "quantity": 725.4,
+        "unit": "m2",
+        "rate": 2000,
+        "amount": 1450800,
+        "priceSource": "Sample baseline (team estimate), not supplier-verified",
+        "observedOn": "2026-11-01",
+        "verified": false
+      },
+      {
+        "key": "services_m2",
+        "group": "services",
+        "description": "Plumbing and electrical",
+        "quantity": 190.8,
+        "unit": "m2",
+        "rate": 35000,
+        "amount": 6678000,
+        "priceSource": "Sample baseline (team estimate), not supplier-verified",
+        "observedOn": "2026-11-01",
+        "verified": false
+      },
+      {
+        "key": "fence_m",
+        "group": "external",
+        "description": "Perimeter fence",
+        "quantity": 87.84,
+        "unit": "m",
+        "rate": 45000,
+        "amount": 3952800,
+        "priceSource": "Sample baseline (team estimate), not supplier-verified",
+        "observedOn": "2026-11-01",
+        "verified": false
+      },
+      {
+        "key": "labour",
+        "group": "labour",
+        "description": "Labour (30% of materials, sample assumption)",
+        "quantity": 1,
+        "unit": "lot",
+        "rate": 10863348,
+        "amount": 10863348,
+        "priceSource": "Sample baseline (team estimate), not supplier-verified",
+        "observedOn": "2026-11-01",
+        "verified": false
+      }
+    ],
+    "groups": [
+      {
+        "group": "substructure",
+        "amount": 8768340
+      },
+      {
+        "group": "blockwork",
+        "amount": 5340500
+      },
+      {
+        "group": "roofing",
+        "amount": 4655520
+      },
+      {
+        "group": "openings",
+        "amount": 1740000
+      },
+      {
+        "group": "finishes",
+        "amount": 5076000
+      },
+      {
+        "group": "services",
+        "amount": 6678000
+      },
+      {
+        "group": "external",
+        "amount": 3952800
+      },
+      {
+        "group": "labour",
+        "amount": 10863348
+      }
+    ],
+    "low": 42367057,
+    "expected": 47074508,
+    "high": 56489410,
+    "range": {
+      "lowFactor": 0.9,
+      "highFactor": 1.2
+    },
+    "budget": {
+      "amount": 50000000,
+      "status": "near",
+      "delta": 2925492
+    },
+    "drivers": [
+      {
+        "group": "labour",
+        "amount": 10863348,
+        "share": 0.231
+      },
+      {
+        "group": "substructure",
+        "amount": 8768340,
+        "share": 0.186
+      },
+      {
+        "group": "services",
+        "amount": 6678000,
+        "share": 0.142
+      }
+    ],
+    "missingPrices": [],
+    "quantities": {
+      "floorAreaM2": 190.8,
+      "roofAreaM2": 232.776,
+      "externalWallAreaM2": 193.23,
+      "internalWallAreaM2": 169.47,
+      "doors": 12,
+      "windows": 8
+    }
+  },
+  "diff": {
+    "changes": [
+      {
+        "path": "/features/bq",
+        "from": false,
+        "to": true
+      }
+    ],
+    "roomsAdded": [
+      "BQ toilet",
+      "Boys' quarters"
+    ],
+    "roomsRemoved": [],
+    "costDelta": {
+      "expected": 5681455,
+      "byGroup": [
+        {
+          "group": "labour",
+          "delta": 1311105
+        },
+        {
+          "group": "substructure",
+          "delta": 1206540
+        },
+        {
+          "group": "blockwork",
+          "delta": 957650
+        },
+        {
+          "group": "services",
+          "delta": 756000
+        },
+        {
+          "group": "finishes",
+          "delta": 663120
+        },
+        {
+          "group": "roofing",
+          "delta": 527040
+        },
+        {
+          "group": "openings",
+          "delta": 260000
+        }
+      ]
+    }
+  },
+  "explanation": [
+    "Added a boys' quarters with its own toilet at the rear of the plot."
+  ]
+}

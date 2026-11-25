@@ -1,0 +1,14 @@
+{
+  "type": "https://speakahouse.ng/problems/validation",
+  "title": "Invalid request",
+  "status": 400,
+  "code": "VALIDATION_FAILED",
+  "detail": "rooms.bedrooms must be between 1 and 6",
+  "instance": "/api/v1/sessions/ses_demo0001/versions",
+  "errors": [
+    {
+      "field": "rooms.bedrooms",
+      "message": "must be between 1 and 6"
+    }
+  ]
+}

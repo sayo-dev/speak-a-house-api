@@ -1,0 +1,43 @@
+{
+  "kind": "patch",
+  "source": "rules",
+  "baseVersionId": "ver_0003",
+  "patch": [
+    {
+      "op": "set",
+      "path": "/finish",
+      "value": "standard"
+    }
+  ],
+  "spec": {
+    "plot": {
+      "width": 50,
+      "depth": 100,
+      "unit": "ft",
+      "unitConfirmed": true
+    },
+    "houseType": "bungalow",
+    "rooms": {
+      "bedrooms": 3,
+      "ensuites": 0,
+      "dining": false
+    },
+    "features": {
+      "shop": true,
+      "bq": true,
+      "garage": false,
+      "fence": true
+    },
+    "roofing": "hip",
+    "finish": "standard",
+    "budget": {
+      "amount": 50000000,
+      "currency": "NGN"
+    },
+    "region": "abeokuta"
+  },
+  "summary": [
+    "Biggest saving: finish premium → standard"
+  ],
+  "reason": "make_cheaper"
+}

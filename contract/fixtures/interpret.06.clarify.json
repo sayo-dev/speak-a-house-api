@@ -1,0 +1,10 @@
+{
+  "kind": "clarify",
+  "source": "rules",
+  "field": "budget",
+  "question": "By \"30 bar\", do you mean ₦30,000,000?",
+  "options": [
+    "₦30,000,000",
+    "Let me type the amount"
+  ]
+}

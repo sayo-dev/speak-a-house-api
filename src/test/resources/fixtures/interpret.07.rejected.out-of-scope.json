@@ -1,0 +1,6 @@
+{
+  "kind": "rejected",
+  "source": "rules",
+  "code": "OUT_OF_SCOPE",
+  "reason": "Right now I can design single-storey bungalows only. Duplexes are coming next."
+}

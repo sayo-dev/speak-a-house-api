@@ -1,0 +1,51 @@
+{
+  "kind": "spec",
+  "source": "rules",
+  "spec": {
+    "plot": {
+      "width": 50,
+      "depth": 100,
+      "unit": "ft",
+      "unitConfirmed": false
+    },
+    "houseType": "bungalow",
+    "rooms": {
+      "bedrooms": 3,
+      "ensuites": 0,
+      "dining": false
+    },
+    "features": {
+      "shop": true,
+      "bq": false,
+      "garage": false,
+      "fence": true
+    },
+    "roofing": "hip",
+    "finish": "standard",
+    "budget": {
+      "amount": 50000000,
+      "currency": "NGN"
+    },
+    "region": "abeokuta"
+  },
+  "summary": [
+    "3 bedrooms",
+    "Bungalow",
+    "Plot 50 × 100 (feet?)",
+    "Shop at the front",
+    "Budget ₦50,000,000",
+    "Abeokuta"
+  ],
+  "needsConfirm": true,
+  "confirmations": [
+    {
+      "field": "plot.unit",
+      "question": "Is your plot 50 × 100 feet or 50 × 100 metres?",
+      "options": [
+        "ft",
+        "m"
+      ],
+      "default": "ft"
+    }
+  ]
+}

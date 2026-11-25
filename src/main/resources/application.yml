@@ -1,0 +1,26 @@
+spring:
+  application.name: speak-a-house-api
+  datasource:
+    url: jdbc:h2:file:./data/speakahouse;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH
+    username: sa
+    password: ""
+  jpa:
+    open-in-view: false
+    hibernate.ddl-auto: validate
+  flyway.enabled: true
+  servlet.multipart.max-file-size: 2MB
+server:
+  port: 8080
+  error.include-stacktrace: never
+management.endpoints.web.exposure.include: health,info
+app:
+  contract-version: "1.0.0"
+  cors.allowed-origins: http://localhost:5173,http://localhost:4173
+  ai:
+    api-key: ${ANTHROPIC_API_KEY:}
+    model: ${ANTHROPIC_MODEL:claude-haiku-5-5}
+    timeout-seconds: 8
+    max-calls-per-session: 40
+  limits:
+    max-input-chars: 500
+  admin-key: ${ADMIN_KEY:}

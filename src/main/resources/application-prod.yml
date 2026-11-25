@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/speakahouse}
+    username: ${DATABASE_USER:speakahouse}
+    password: ${DATABASE_PASSWORD:speakahouse}

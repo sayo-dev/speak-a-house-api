@@ -1,0 +1,42 @@
+{
+  "sessionId": "ses_demo0001",
+  "headVersionId": "ver_0004",
+  "versions": [
+    {
+      "id": "ver_0001",
+      "seq": 1,
+      "parentId": null,
+      "inputText": "Three-bedroom bungalow on a 50 by 100 plot in Abeokuta, budget 50 million naira, shop at the front",
+      "createdAt": "2026-11-25T10:01:00Z",
+      "expected": 41393053,
+      "budgetStatus": "within"
+    },
+    {
+      "id": "ver_0002",
+      "seq": 2,
+      "parentId": "ver_0001",
+      "inputText": "Add a boys' quarters at the back",
+      "createdAt": "2026-11-25T10:02:00Z",
+      "expected": 47074508,
+      "budgetStatus": "near"
+    },
+    {
+      "id": "ver_0003",
+      "seq": 3,
+      "parentId": "ver_0002",
+      "inputText": "Make it premium finish",
+      "createdAt": "2026-11-25T10:03:00Z",
+      "expected": 66186926,
+      "budgetStatus": "over"
+    },
+    {
+      "id": "ver_0004",
+      "seq": 4,
+      "parentId": "ver_0003",
+      "inputText": "Make it cheaper",
+      "createdAt": "2026-11-25T10:04:00Z",
+      "expected": 47074508,
+      "budgetStatus": "near"
+    }
+  ]
+}
