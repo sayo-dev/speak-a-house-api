@@ -1,0 +1,55 @@
+price_key,grp,description,unit,region,finish,rate_ngn,source,supplier,observed_on,verified
+concrete_m3,substructure,"Concrete 1:2:4 (cement, sand, granite)",m3,abeokuta,any,180000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+block_9in,blockwork,9-inch hollow sandcrete block,each,abeokuta,any,850,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+block_6in,blockwork,6-inch hollow sandcrete block,each,abeokuta,any,700,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+cement_bag,blockwork,Cement 50 kg (mortar and plaster),bag,abeokuta,any,10500,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+roof_timber_m2,roofing,Roof timber and carpentry,m2,abeokuta,any,8000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+roof_cover_m2,roofing,Roof covering,m2,abeokuta,basic,9000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+roof_cover_m2,roofing,Roof covering,m2,abeokuta,standard,12000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+roof_cover_m2,roofing,Roof covering,m2,abeokuta,premium,22000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+door_each,openings,Door with frame,each,abeokuta,basic,45000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+door_each,openings,Door with frame,each,abeokuta,standard,85000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+door_each,openings,Door with frame,each,abeokuta,premium,250000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+window_each,openings,Window 1.2 x 1.2 m,each,abeokuta,basic,60000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+window_each,openings,Window 1.2 x 1.2 m,each,abeokuta,standard,90000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+window_each,openings,Window 1.2 x 1.2 m,each,abeokuta,premium,180000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+floor_finish_m2,finishes,Floor tiles,m2,abeokuta,basic,7000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+floor_finish_m2,finishes,Floor tiles,m2,abeokuta,standard,12000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+floor_finish_m2,finishes,Floor tiles,m2,abeokuta,premium,25000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+ceiling_m2,finishes,Ceiling,m2,abeokuta,basic,5000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+ceiling_m2,finishes,Ceiling,m2,abeokuta,standard,7000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+ceiling_m2,finishes,Ceiling,m2,abeokuta,premium,14000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+paint_m2,finishes,Painting,m2,abeokuta,basic,1500,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+paint_m2,finishes,Painting,m2,abeokuta,standard,2000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+paint_m2,finishes,Painting,m2,abeokuta,premium,3500,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+services_m2,services,Plumbing and electrical,m2,abeokuta,basic,25000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+services_m2,services,Plumbing and electrical,m2,abeokuta,standard,35000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+services_m2,services,Plumbing and electrical,m2,abeokuta,premium,60000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+fence_m,external,Perimeter fence,m,abeokuta,any,45000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+concrete_m3,substructure,"Concrete 1:2:4 (cement, sand, granite)",m3,lagos,any,180000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+block_9in,blockwork,9-inch hollow sandcrete block,each,lagos,any,850,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+block_6in,blockwork,6-inch hollow sandcrete block,each,lagos,any,700,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+cement_bag,blockwork,Cement 50 kg (mortar and plaster),bag,lagos,any,10500,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+roof_timber_m2,roofing,Roof timber and carpentry,m2,lagos,any,8000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+roof_cover_m2,roofing,Roof covering,m2,lagos,basic,9000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+roof_cover_m2,roofing,Roof covering,m2,lagos,standard,12000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+roof_cover_m2,roofing,Roof covering,m2,lagos,premium,22000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+door_each,openings,Door with frame,each,lagos,basic,45000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+door_each,openings,Door with frame,each,lagos,standard,85000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+door_each,openings,Door with frame,each,lagos,premium,250000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+window_each,openings,Window 1.2 x 1.2 m,each,lagos,basic,60000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+window_each,openings,Window 1.2 x 1.2 m,each,lagos,standard,90000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+window_each,openings,Window 1.2 x 1.2 m,each,lagos,premium,180000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+floor_finish_m2,finishes,Floor tiles,m2,lagos,basic,7000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+floor_finish_m2,finishes,Floor tiles,m2,lagos,standard,12000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+floor_finish_m2,finishes,Floor tiles,m2,lagos,premium,25000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+ceiling_m2,finishes,Ceiling,m2,lagos,basic,5000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+ceiling_m2,finishes,Ceiling,m2,lagos,standard,7000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+ceiling_m2,finishes,Ceiling,m2,lagos,premium,14000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+paint_m2,finishes,Painting,m2,lagos,basic,1500,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+paint_m2,finishes,Painting,m2,lagos,standard,2000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+paint_m2,finishes,Painting,m2,lagos,premium,3500,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+services_m2,services,Plumbing and electrical,m2,lagos,basic,25000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+services_m2,services,Plumbing and electrical,m2,lagos,standard,35000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+services_m2,services,Plumbing and electrical,m2,lagos,premium,60000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+fence_m,external,Perimeter fence,m,lagos,any,45000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
