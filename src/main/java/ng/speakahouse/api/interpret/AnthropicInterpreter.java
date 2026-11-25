@@ -127,7 +127,6 @@ public class AnthropicInterpreter {
         Map<String, Object> body = Map.of(
                 "model", props.ai().model(),
                 "max_tokens", 1024,
-                "temperature", 0.1,
                 "system", SYSTEM_PROMPT,
                 "messages", messages);
 
@@ -213,3 +212,4 @@ public class AnthropicInterpreter {
         return "baseSpec: " + mapper.writeValueAsString(baseSpec) + "\nuserText: " + text;
     }
 }
+
