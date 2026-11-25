@@ -47,5 +47,40 @@ public class VersionController {
             @RequestHeader(value = "X-Session-Token", required = false) String token) {
         return versionService.getVersion(id, token, vid);
     }
+
+    @GetMapping(value = "/{vid}/boq.csv", produces = "text/csv; charset=UTF-8")
+    public ResponseEntity<String> exportBoqCsv(
+            @PathVariable String id,
+            @PathVariable String vid,
+            @RequestHeader(value = "X-Session-Token", required = false) String token) {
+        SessionDtos.VersionResponse v = versionService.getVersion(id, token, vid);
+        StringBuilder sb = new StringBuilder();
+        sb.append("key,group,description,quantity,unit,rate_ngn,amount_ngn,price_source,observed_on,verified\n");
+        for (var line : v.estimate().lines()) {
+            sb.append(csv(line.key())).append(',')
+                    .append(csv(line.group())).append(',')
+                    .append(csv(line.description())).append(',')
+                    .append(line.quantity()).append(',')
+                    .append(csv(line.unit())).append(',')
+                    .append(line.rate()).append(',')
+                    .append(line.amount()).append(',')
+                    .append(csv(line.priceSource())).append(',')
+                    .append(csv(line.observedOn())).append(',')
+                    .append(line.verified()).append('\n');
+        }
+        sb.append("total,,Expected Total,,,,,")
+                .append(v.estimate().expected()).append(",,\n");
+        return ResponseEntity.ok()
+                .header("Content-Disposition", "attachment; filename=\"boq-" + vid + ".csv\"")
+                .body(sb.toString());
+    }
+
+    private static String csv(String val) {
+        if (val == null) return "";
+        if (val.contains(",") || val.contains("\"") || val.contains("\n")) {
+            return "\"" + val.replace("\"", "\"\"") + "\"";
+        }
+        return val;
+    }
 }
 

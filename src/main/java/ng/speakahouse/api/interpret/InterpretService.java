@@ -51,3 +51,4 @@ public class InterpretService {
         return ruleInterpreter.interpret(text, baseVersionId, baseSpec);
     }
 }
+

@@ -57,3 +57,4 @@ class M2ApiIntegrationTest {
                 .andExpect(jsonPath("$.code").value("INVALID_SESSION_TOKEN"));
     }
 }
+
