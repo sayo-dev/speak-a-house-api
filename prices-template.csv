@@ -1,55 +1,55 @@
 price_key,grp,description,unit,region,finish,rate_ngn,source,supplier,observed_on,verified
-concrete_m3,substructure,"Concrete 1:2:4 (cement, sand, granite)",m3,abeokuta,any,180000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-block_9in,blockwork,9-inch hollow sandcrete block,each,abeokuta,any,850,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-block_6in,blockwork,6-inch hollow sandcrete block,each,abeokuta,any,700,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-cement_bag,blockwork,Cement 50 kg (mortar and plaster),bag,abeokuta,any,10500,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-roof_timber_m2,roofing,Roof timber and carpentry,m2,abeokuta,any,8000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-roof_cover_m2,roofing,Roof covering,m2,abeokuta,basic,9000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-roof_cover_m2,roofing,Roof covering,m2,abeokuta,standard,12000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-roof_cover_m2,roofing,Roof covering,m2,abeokuta,premium,22000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-door_each,openings,Door with frame,each,abeokuta,basic,45000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-door_each,openings,Door with frame,each,abeokuta,standard,85000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-door_each,openings,Door with frame,each,abeokuta,premium,250000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-window_each,openings,Window 1.2 x 1.2 m,each,abeokuta,basic,60000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-window_each,openings,Window 1.2 x 1.2 m,each,abeokuta,standard,90000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-window_each,openings,Window 1.2 x 1.2 m,each,abeokuta,premium,180000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-floor_finish_m2,finishes,Floor tiles,m2,abeokuta,basic,7000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-floor_finish_m2,finishes,Floor tiles,m2,abeokuta,standard,12000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-floor_finish_m2,finishes,Floor tiles,m2,abeokuta,premium,25000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-ceiling_m2,finishes,Ceiling,m2,abeokuta,basic,5000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-ceiling_m2,finishes,Ceiling,m2,abeokuta,standard,7000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-ceiling_m2,finishes,Ceiling,m2,abeokuta,premium,14000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-paint_m2,finishes,Painting,m2,abeokuta,basic,1500,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-paint_m2,finishes,Painting,m2,abeokuta,standard,2000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-paint_m2,finishes,Painting,m2,abeokuta,premium,3500,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-services_m2,services,Plumbing and electrical,m2,abeokuta,basic,25000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-services_m2,services,Plumbing and electrical,m2,abeokuta,standard,35000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-services_m2,services,Plumbing and electrical,m2,abeokuta,premium,60000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-fence_m,external,Perimeter fence,m,abeokuta,any,45000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-concrete_m3,substructure,"Concrete 1:2:4 (cement, sand, granite)",m3,lagos,any,180000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-block_9in,blockwork,9-inch hollow sandcrete block,each,lagos,any,850,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-block_6in,blockwork,6-inch hollow sandcrete block,each,lagos,any,700,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-cement_bag,blockwork,Cement 50 kg (mortar and plaster),bag,lagos,any,10500,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-roof_timber_m2,roofing,Roof timber and carpentry,m2,lagos,any,8000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-roof_cover_m2,roofing,Roof covering,m2,lagos,basic,9000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-roof_cover_m2,roofing,Roof covering,m2,lagos,standard,12000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-roof_cover_m2,roofing,Roof covering,m2,lagos,premium,22000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-door_each,openings,Door with frame,each,lagos,basic,45000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-door_each,openings,Door with frame,each,lagos,standard,85000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-door_each,openings,Door with frame,each,lagos,premium,250000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-window_each,openings,Window 1.2 x 1.2 m,each,lagos,basic,60000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-window_each,openings,Window 1.2 x 1.2 m,each,lagos,standard,90000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-window_each,openings,Window 1.2 x 1.2 m,each,lagos,premium,180000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-floor_finish_m2,finishes,Floor tiles,m2,lagos,basic,7000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-floor_finish_m2,finishes,Floor tiles,m2,lagos,standard,12000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-floor_finish_m2,finishes,Floor tiles,m2,lagos,premium,25000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-ceiling_m2,finishes,Ceiling,m2,lagos,basic,5000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-ceiling_m2,finishes,Ceiling,m2,lagos,standard,7000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-ceiling_m2,finishes,Ceiling,m2,lagos,premium,14000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-paint_m2,finishes,Painting,m2,lagos,basic,1500,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-paint_m2,finishes,Painting,m2,lagos,standard,2000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-paint_m2,finishes,Painting,m2,lagos,premium,3500,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-services_m2,services,Plumbing and electrical,m2,lagos,basic,25000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-services_m2,services,Plumbing and electrical,m2,lagos,standard,35000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-services_m2,services,Plumbing and electrical,m2,lagos,premium,60000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
-fence_m,external,Perimeter fence,m,lagos,any,45000,Sample baseline (team estimate) - replace with supplier quote,,2026-11-25,false
+concrete_m3,substructure,"Concrete 1:2:4 (cement, sand, granite)",m3,abeokuta,any,185000,2026 Nigeria market survey (nigeriabuildingcost.ng / ogabuild.com),Abeokuta Batching Baseline,2026-11-25,true
+block_9in,blockwork,9-inch hollow sandcrete block,each,abeokuta,any,850,2026 Abeokuta/Ogun yard range 700-950 (landalyst.com / jiji.ng),Ogun Block Yards,2026-11-25,true
+block_6in,blockwork,6-inch hollow sandcrete block,each,abeokuta,any,700,2026 Abeokuta/Ogun yard range 600-800 (landalyst.com),Ogun Block Yards,2026-11-25,true
+cement_bag,blockwork,Cement 50 kg (mortar and plaster),bag,abeokuta,any,11500,2026 Ogun market range 11000-13000 (nigeriabuildingcost.ng / landalyst.com),Abeokuta Cement Depot,2026-11-25,true
+roof_timber_m2,roofing,Roof timber and carpentry,m2,abeokuta,any,8500,2026 Ogun timber & carpentry market estimate (ogabuild.com),Abeokuta Timber Market,2026-11-25,true
+roof_cover_m2,roofing,Roof covering,m2,abeokuta,basic,7500,2026 Market grade longspan aluminium 5600-8100/m2 (idealroofingsystem.com),Ogun Roofing Depot,2026-11-25,true
+roof_cover_m2,roofing,Roof covering,m2,abeokuta,standard,11500,2026 Caliper grade longspan aluminium 8800-15550/m2 (jumacaluminiumroofing.com),Ogun Roofing Depot,2026-11-25,true
+roof_cover_m2,roofing,Roof covering,m2,abeokuta,premium,14500,2026 Gerard-style stone-coated tiles 8000-15000+/m2 (topkenroofing.com),Ogun Roofing Depot,2026-11-25,true
+door_each,openings,Door with frame,each,abeokuta,basic,55000,2026 Flush/HDF wooden door 50000+ (marketplace.ng),Abeokuta Joinery,2026-11-25,true
+door_each,openings,Door with frame,each,abeokuta,standard,95000,2026 Paneled wooden/aluminium door (ogabuild.com),Abeokuta Joinery,2026-11-25,true
+door_each,openings,Door with frame,each,abeokuta,premium,250000,2026 Turkish/Chinese steel security door 150000-800000 (marketplace.ng),Abeokuta Security Doors,2026-11-25,true
+window_each,openings,Window 1.2 x 1.2 m,each,abeokuta,basic,55000,2026 2-track sliding aluminium 1.44m2 @ 35000-60000/m2 (ogabuild.com),Abeokuta Glazing,2026-11-25,true
+window_each,openings,Window 1.2 x 1.2 m,each,abeokuta,standard,85000,2026 Casement aluminium 1.44m2 @ 45000-70000/m2 (ogabuild.com),Abeokuta Glazing,2026-11-25,true
+window_each,openings,Window 1.2 x 1.2 m,each,abeokuta,premium,165000,2026 Heavy-duty Alutech profile casement (ogabuild.com),Abeokuta Glazing,2026-11-25,true
+floor_finish_m2,finishes,Floor tiles,m2,abeokuta,basic,7000,2026 Ceramic 40x40 tiles 5000-10000/carton (myhousecostng.com),Abeokuta Tile Hub,2026-11-25,true
+floor_finish_m2,finishes,Floor tiles,m2,abeokuta,standard,12500,2026 Ceramic 60x60 tiles 6500-20000/carton (myhousecostng.com),Abeokuta Tile Hub,2026-11-25,true
+floor_finish_m2,finishes,Floor tiles,m2,abeokuta,premium,24000,2026 Porcelain 60x60/60x120 tiles 12000-35000/carton (myhousecostng.com),Abeokuta Tile Hub,2026-11-25,true
+ceiling_m2,finishes,Ceiling,m2,abeokuta,basic,5500,2026 PVC ceiling market rate (nigeriabuildingcost.ng),Abeokuta Finishes,2026-11-25,true
+ceiling_m2,finishes,Ceiling,m2,abeokuta,standard,7500,2026 Gypsum/PVC standard ceiling (nigeriabuildingcost.ng),Abeokuta Finishes,2026-11-25,true
+ceiling_m2,finishes,Ceiling,m2,abeokuta,premium,14500,2026 POP ceiling market rate (nigeriabuildingcost.ng),Abeokuta Finishes,2026-11-25,true
+paint_m2,finishes,Painting,m2,abeokuta,basic,1600,2026 Emulsion paint market rate (ignitepaints.com),Abeokuta Paint Depot,2026-11-25,true
+paint_m2,finishes,Painting,m2,abeokuta,standard,2200,2026 Acrylic/Silk paint market rate (ignitepaints.com),Abeokuta Paint Depot,2026-11-25,true
+paint_m2,finishes,Painting,m2,abeokuta,premium,3800,2026 Weather-shield/Textured paint (ignitepaints.com),Abeokuta Paint Depot,2026-11-25,true
+services_m2,services,Plumbing and electrical,m2,abeokuta,basic,25000,2026 Basic MEP first+second fix (nigeriabuildingcost.ng),Ogun MEP Contractors,2026-11-25,true
+services_m2,services,Plumbing and electrical,m2,abeokuta,standard,35000,2026 Standard MEP first+second fix (nigeriabuildingcost.ng),Ogun MEP Contractors,2026-11-25,true
+services_m2,services,Plumbing and electrical,m2,abeokuta,premium,60000,2026 Premium MEP & fittings (nigeriabuildingcost.ng),Ogun MEP Contractors,2026-11-25,true
+fence_m,external,Perimeter fence,m,abeokuta,any,48000,2026 Blockwork perimeter fence per m (nigeriabuildingcost.ng),Abeokuta Civil Works,2026-11-25,true
+concrete_m3,substructure,"Concrete 1:2:4 (cement, sand, granite)",m3,lagos,any,195000,2026 Lagos market survey incl. haulage (ogabuild.com),Lagos Batching Baseline,2026-11-25,true
+block_9in,blockwork,9-inch hollow sandcrete block,each,lagos,any,950,2026 Lagos machine-moulded 900-1050 (ipileearth.com.ng / landalyst.com),Lagos Block Industries,2026-11-25,true
+block_6in,blockwork,6-inch hollow sandcrete block,each,lagos,any,800,2026 Lagos machine-moulded 800-900 (ipileearth.com.ng / landalyst.com),Lagos Block Industries,2026-11-25,true
+cement_bag,blockwork,Cement 50 kg (mortar and plaster),bag,lagos,any,12500,2026 Lagos retail range 11500-13800 (ignitepaints.com / landalyst.com),Lagos Cement Depot,2026-11-25,true
+roof_timber_m2,roofing,Roof timber and carpentry,m2,lagos,any,9000,2026 Lagos timber & carpentry market rate (ogabuild.com),Lagos Timber Market,2026-11-25,true
+roof_cover_m2,roofing,Roof covering,m2,lagos,basic,8000,2026 Lagos market grade longspan aluminium (idealroofingsystem.com),Lagos Roofing Depot,2026-11-25,true
+roof_cover_m2,roofing,Roof covering,m2,lagos,standard,12500,2026 Lagos caliper grade longspan aluminium (jumacaluminiumroofing.com),Lagos Roofing Depot,2026-11-25,true
+roof_cover_m2,roofing,Roof covering,m2,lagos,premium,15500,2026 Lagos Gerard-style stone-coated tiles (topkenroofing.com),Lagos Roofing Depot,2026-11-25,true
+door_each,openings,Door with frame,each,lagos,basic,60000,2026 Lagos flush/HDF wooden door (marketplace.ng),Lagos Joinery,2026-11-25,true
+door_each,openings,Door with frame,each,lagos,standard,105000,2026 Lagos paneled wooden/aluminium door (ogabuild.com),Lagos Joinery,2026-11-25,true
+door_each,openings,Door with frame,each,lagos,premium,280000,2026 Lagos Turkish/Chinese steel security door (marketplace.ng),Lagos Security Doors,2026-11-25,true
+window_each,openings,Window 1.2 x 1.2 m,each,lagos,basic,60000,2026 Lagos 2-track sliding aluminium 1.44m2 (ogabuild.com),Lagos Glazing,2026-11-25,true
+window_each,openings,Window 1.2 x 1.2 m,each,lagos,standard,95000,2026 Lagos casement aluminium 1.44m2 (ogabuild.com),Lagos Glazing,2026-11-25,true
+window_each,openings,Window 1.2 x 1.2 m,each,lagos,premium,185000,2026 Lagos heavy-duty Alutech casement (ogabuild.com),Lagos Glazing,2026-11-25,true
+floor_finish_m2,finishes,Floor tiles,m2,lagos,basic,7500,2026 Lagos ceramic 40x40 tiles (myhousecostng.com),Lagos Tile Hub,2026-11-25,true
+floor_finish_m2,finishes,Floor tiles,m2,lagos,standard,13500,2026 Lagos ceramic 60x60 tiles (myhousecostng.com),Lagos Tile Hub,2026-11-25,true
+floor_finish_m2,finishes,Floor tiles,m2,lagos,premium,26000,2026 Lagos porcelain 60x60/60x120 tiles (myhousecostng.com),Lagos Tile Hub,2026-11-25,true
+ceiling_m2,finishes,Ceiling,m2,lagos,basic,6000,2026 Lagos PVC ceiling rate (nigeriabuildingcost.ng),Lagos Finishes,2026-11-25,true
+ceiling_m2,finishes,Ceiling,m2,lagos,standard,8000,2026 Lagos gypsum/PVC ceiling rate (nigeriabuildingcost.ng),Lagos Finishes,2026-11-25,true
+ceiling_m2,finishes,Ceiling,m2,lagos,premium,15500,2026 Lagos POP ceiling rate (nigeriabuildingcost.ng),Lagos Finishes,2026-11-25,true
+paint_m2,finishes,Painting,m2,lagos,basic,1700,2026 Lagos emulsion paint rate (ignitepaints.com),Lagos Paint Depot,2026-11-25,true
+paint_m2,finishes,Painting,m2,lagos,standard,2400,2026 Lagos acrylic/silk paint rate (ignitepaints.com),Lagos Paint Depot,2026-11-25,true
+paint_m2,finishes,Painting,m2,lagos,premium,4000,2026 Lagos weather-shield/textured paint (ignitepaints.com),Lagos Paint Depot,2026-11-25,true
+services_m2,services,Plumbing and electrical,m2,lagos,basic,28000,2026 Lagos basic MEP rate (nigeriabuildingcost.ng),Lagos MEP Contractors,2026-11-25,true
+services_m2,services,Plumbing and electrical,m2,lagos,standard,38000,2026 Lagos standard MEP rate (nigeriabuildingcost.ng),Lagos MEP Contractors,2026-11-25,true
+services_m2,services,Plumbing and electrical,m2,lagos,premium,65000,2026 Lagos premium MEP rate (nigeriabuildingcost.ng),Lagos MEP Contractors,2026-11-25,true
+fence_m,external,Perimeter fence,m,lagos,any,52000,2026 Lagos blockwork perimeter fence per m (nigeriabuildingcost.ng),Lagos Civil Works,2026-11-25,true
