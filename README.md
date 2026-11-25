@@ -7,14 +7,23 @@ The AI only interprets language; layout and cost are deterministic code. Contrac
 ```bash
 ./mvnw spring-boot:run          # http://localhost:8080/api/v1/health  (H2 file DB in ./data)
 ./mvnw test
-ANTHROPIC_API_KEY=... ./mvnw spring-boot:run   # enables the AI interpreter (rules are the fallback)
-SPRING_PROFILES_ACTIVE=prod ./mvnw spring-boot:run   # PostgreSQL (DATABASE_URL/USER/PASSWORD)
+ANTHROPIC_API_KEY=... ./mvnw spring-boot:run   # enables Anthropic AI interpreter (rules are the fallback)
+docker compose up -d && SPRING_PROFILES_ACTIVE=prod ./mvnw spring-boot:run   # PostgreSQL
+```
+
+Swagger UI: `http://localhost:8080/swagger-ui.html` (OpenAPI spec at `/v3/api-docs`).
+
+## Admin price import
+```bash
+curl -X POST http://localhost:8080/api/v1/admin/prices/import \
+  -H "X-Admin-Key: $ADMIN_KEY" -H "Content-Type: text/csv" --data-binary @prices.csv
 ```
 
 ## Structure (package by feature)
-`config` properties, CORS · `common` errors (RFC 7807 + code) · `spec` HouseSpec, validation, patches ·
-`interpret` injection guard, lexicon, rule/AI interpreters · `layout` deterministic plan engine ·
-`cost` quantity takeoff × price table · `session` sessions, versions, diff, head · `web` controllers.
+`config` properties, CORS, security headers · `common` errors (RFC 7807 + code), rate limiter ·
+`spec` HouseSpec, validation, patches · `interpret` lexicon, rule/Anthropic interpreters ·
+`layout` deterministic plan engine · `cost` quantity takeoff × price table ·
+`session` sessions, versions, diff, head · `web` controllers.
 
 ## Honest limits
 Single-storey bungalows only. Prices are sample values (`verified=false`) until supplier quotes are imported.

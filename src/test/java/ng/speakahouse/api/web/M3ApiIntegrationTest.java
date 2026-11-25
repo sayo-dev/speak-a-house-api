@@ -86,5 +86,9 @@ class M3ApiIntegrationTest {
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.imported").value(1))
                 .andExpect(jsonPath("$.rejected", hasSize(1)));
+
+        mvc.perform(get("/v3/api-docs"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.paths").exists());
     }
 }
