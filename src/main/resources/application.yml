@@ -17,10 +17,12 @@ app:
   contract-version: "1.0.0"
   cors.allowed-origins: http://localhost:5173,http://localhost:4173
   ai:
-    api-key: ${ANTHROPIC_API_KEY:}
-    model: ${ANTHROPIC_MODEL:claude-haiku-5-5}
+    api-key: ${DEEPSEEK_API_KEY:}
+    base-url: ${DEEPSEEK_BASE_URL:https://api.deepseek.com/v1}
+    model: ${DEEPSEEK_MODEL:deepseek-chat}
     timeout-seconds: 8
     max-calls-per-session: 40
   limits:
     max-input-chars: 500
+    rate-limit-per-minute: 30
   admin-key: ${ADMIN_KEY:}

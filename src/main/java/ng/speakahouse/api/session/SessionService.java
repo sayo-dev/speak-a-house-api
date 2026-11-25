@@ -34,7 +34,7 @@ public class SessionService {
     public DesignSessionEntity requireSession(String sessionId, String token) {
         DesignSessionEntity session = sessionRepo.findById(sessionId)
                 .orElseThrow(() -> new ApiException(ErrorCode.SESSION_NOT_FOUND, "Session not found: " + sessionId));
-        if (token != null && !token.isBlank() && !session.getTokenHash().equals(sha256(token))) {
+        if (token == null || token.isBlank() || !session.getTokenHash().equals(sha256(token))) {
             throw new ApiException(ErrorCode.INVALID_SESSION_TOKEN, "Invalid session token");
         }
         return session;

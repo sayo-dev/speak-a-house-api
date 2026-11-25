@@ -3,9 +3,11 @@ package ng.speakahouse.api.web;
 import jakarta.validation.Valid;
 import ng.speakahouse.api.common.ApiException;
 import ng.speakahouse.api.common.ErrorCode;
+import ng.speakahouse.api.common.RateLimiter;
 import ng.speakahouse.api.config.AppProperties;
 import ng.speakahouse.api.interpret.InterpretResult;
-import ng.speakahouse.api.interpret.RuleBasedInterpreter;
+import ng.speakahouse.api.interpret.InterpretService;
+import ng.speakahouse.api.session.DesignSessionEntity;
 import ng.speakahouse.api.session.SessionService;
 import ng.speakahouse.api.session.VersionService;
 import ng.speakahouse.api.spec.HouseSpec;
@@ -23,17 +25,20 @@ public class InterpretController {
     private final AppProperties props;
     private final SessionService sessionService;
     private final VersionService versionService;
-    private final RuleBasedInterpreter interpreter;
+    private final InterpretService interpretService;
+    private final RateLimiter rateLimiter;
 
     public InterpretController(
             AppProperties props,
             SessionService sessionService,
             VersionService versionService,
-            RuleBasedInterpreter interpreter) {
+            InterpretService interpretService,
+            RateLimiter rateLimiter) {
         this.props = props;
         this.sessionService = sessionService;
         this.versionService = versionService;
-        this.interpreter = interpreter;
+        this.interpretService = interpretService;
+        this.rateLimiter = rateLimiter;
     }
 
     @PostMapping
@@ -41,7 +46,8 @@ public class InterpretController {
             @PathVariable String id,
             @RequestHeader(value = "X-Session-Token", required = false) String token,
             @Valid @RequestBody InterpretResult.InterpretRequest req) {
-        sessionService.requireSession(id, token);
+        DesignSessionEntity session = sessionService.requireSession(id, token);
+        rateLimiter.check(id);
         if (req.text().length() > props.limits().maxInputChars()) {
             throw new ApiException(
                     ErrorCode.INPUT_TOO_LONG,
@@ -51,7 +57,6 @@ public class InterpretController {
         if (req.baseVersionId() != null && !req.baseVersionId().isBlank()) {
             baseSpec = versionService.getSpec(id, token, req.baseVersionId());
         }
-        return interpreter.interpret(req.text(), req.baseVersionId(), baseSpec);
+        return interpretService.interpret(session, req.text(), req.baseVersionId(), baseSpec);
     }
 }
-

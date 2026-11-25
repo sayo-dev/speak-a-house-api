@@ -69,7 +69,11 @@ public class VersionService {
         Plan plan = layoutEngine.layout(req.spec());
         CostEstimate estimate = costEngine.estimate(req.spec(), plan);
         SessionDtos.VersionDiff diff = diffService.diff(prevSpec, prevPlan, prevEst, req.spec(), plan, estimate);
-        List<String> explanation = buildExplanation(req.spec(), diff);
+        String specJson = mapper.writeValueAsString(req.spec());
+        String planJson = mapper.writeValueAsString(plan);
+        String estimateJson = mapper.writeValueAsString(estimate);
+        List<String> explanation = guardExplanation(
+                buildExplanation(req.spec(), diff), specJson + " " + planJson + " " + estimateJson);
 
         int nextSeq = versionRepo.findTopBySessionIdOrderBySeqDesc(sessionId)
                 .map(v -> v.getSeq() + 1)
@@ -84,9 +88,9 @@ public class VersionService {
                 nextSeq,
                 req.parentVersionId(),
                 req.inputText(),
-                mapper.writeValueAsString(req.spec()),
-                mapper.writeValueAsString(plan),
-                mapper.writeValueAsString(estimate),
+                specJson,
+                planJson,
+                estimateJson,
                 diff != null ? mapper.writeValueAsString(diff) : null,
                 mapper.writeValueAsString(explanation),
                 estimate.expected(),
@@ -169,6 +173,26 @@ public class VersionService {
             out.add("Recomputed layout and cost estimate.");
         }
         return out;
+    }
+
+    private static List<String> guardExplanation(List<String> lines, String versionJson) {
+        java.util.regex.Pattern numPat = java.util.regex.Pattern.compile("\\d+(?:\\.\\d+)?");
+        String normalizedJson = versionJson.replace(",", "");
+        List<String> safe = new ArrayList<>();
+        for (String line : lines) {
+            java.util.regex.Matcher m = numPat.matcher(line.replace(",", ""));
+            boolean ok = true;
+            while (m.find()) {
+                if (!normalizedJson.contains(m.group())) {
+                    ok = false;
+                    break;
+                }
+            }
+            if (ok) {
+                safe.add(line);
+            }
+        }
+        return safe.isEmpty() ? List.of("Updated design and recomputed layout and cost.") : safe;
     }
 
     private static String fmtNum(double v) {
